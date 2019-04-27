@@ -21,6 +21,6 @@ After creation just start the updater with the docker command:
 docker run -v /path/to/config:/bin/config.ini tgru/nextcloud-news-updater
 ```
 
-Or alternatively use docker-compose by using the [provided](docker-compose.yaml) or an own `docker-compose.yaml` file and calling
+Or alternatively use docker-compose by using the [provided](https://github.com/tgru/docker-nextcloud-news-updater/blob/master/docker-compose.yaml) or an own `docker-compose.yaml` file and calling
 
     docker-compose up -d
