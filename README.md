@@ -7,7 +7,7 @@ An docker image containing the Nextcloud News Updater for easy deployment.
 The image currently only supports updating the news feeds through the REST API, so it is mandatory that a configuration file will be mounted to `/bin/config.ini`. An example with the minimal configuration is written below:
 
 ```ini
-[config]
+[updater]
 url = https://url.to.nextcloud.tld
 user = admin_user_name
 password = admin_user_password
