@@ -15,6 +15,12 @@ password = admin_user_password
 
 More options can be found at the [news-updater](https://github.com/nextcloud/news-updater#Usage) repository. **Do not forget to set proper file permissions (e.g. 600) and owner, since this file contains sensible information**.
 
-After creation just start the updater:
+After creation just start the updater with the docker command:
 
-    docker run -v /path/to/config:/bin/config.ini tgru/nextcloud-news-updater
+```bash
+docker run -v /path/to/config:/bin/config.ini tgru/nextcloud-news-updater
+```
+
+Or alternatively use docker-compose by using the [provided](docker-compose.yaml) or an own `docker-compose.yaml` file and calling
+
+    docker-compose up -d

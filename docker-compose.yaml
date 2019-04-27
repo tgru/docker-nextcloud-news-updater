@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  news-updater:
+    image: tgru/nextcloud-news-updater
+    restart: always
+    volumes:
+      - ./config.ini:/bin/config.ini
+    network_mode: host
