@@ -1,5 +1,9 @@
 # Nextcloud News Updater for Docker
 
+![build status](https://img.shields.io/docker/cloud/build/tgru/nextcloud-news-updater)
+![image size](https://img.shields.io/docker/image-size/tgru/nextcloud-news-updater)
+![license](https://img.shields.io/github/license/tgru/docker-nextcloud-news-updater)
+
 An docker image containing the Nextcloud News Updater for easy deployment.
 
 ## Usage
